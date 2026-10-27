@@ -1,0 +1,7 @@
+opencv-python
+face-recognition
+numpy
+cryptography
+setuptools<81
+Pillow
+qrcode[pil]

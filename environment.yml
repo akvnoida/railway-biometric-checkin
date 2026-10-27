@@ -1,0 +1,15 @@
+name: railway-kiosk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - "dlib=*=cpu_py311*"
+  - opencv
+  - numpy
+  - cryptography
+  - pillow
+  - pip
+  - "setuptools<81"
+  - pip:
+      - face-recognition
+      - qrcode[pil]
